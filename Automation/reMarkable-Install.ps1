@@ -30,7 +30,7 @@
 #
 #   -DownloadUrl <string>
 #       URL to download the installer from.
-#       Default: "https://dxt.dev/remarkable"
+#       Default: "https://downloads.remarkable.com/desktop/production/win/reMarkable-3.15.1.895-win64.exe"
 #
 # Usage:
 #   .\reMarkable-Install.ps1
@@ -43,7 +43,7 @@
       [string]$AppName = "reMarkable",
       [string]$AppExecutablePath = "C:\Program Files\reMarkable\reMarkable.exe",
       [string]$InstallArgs = "--accept-messages --accept-licenses --confirm-command install com.remarkable.xochitl",
-      [string]$DownloadUrl = "https://dxt.dev/remarkable"
+      [string]$DownloadUrl = "https://downloads.remarkable.com/desktop/production/win/reMarkable-3.15.1.895-win64.exe"
   )
 # Function: Get-Installer
 #
