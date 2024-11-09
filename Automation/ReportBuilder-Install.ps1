@@ -23,19 +23,19 @@
 #
 #   -DownloadUrl <string>
 #       URL to download the installer from.
-#       Default: "https://dxt.dev/ReportBuilder"
+#       Default: "https://download.microsoft.com/download/5/E/B/5EB40744-DC0A-47C0-8B0A-1830E74D3C23/ReportBuilder.msi"
 #
 # Usage:
-#   .\LGN-ReportBuilder-Install.ps1
-#   .\LGN-ReportBuilder-Install.ps1 -Verbose
-#   .\LGN-ReportBuilder-Install.ps1 -TempDir "D:\CustomTemp"
+#   .\ReportBuilder-Install.ps1
+#   .\ReportBuilder-Install.ps1 -Verbose
+#   .\ReportBuilder-Install.ps1 -TempDir "D:\CustomTemp"
 
 # Set the defaults
 [CmdletBinding()]
 param (
     [string]$TempDir = "C:\Temp",
     [string]$InstallArgs = "/norestart /qn",
-    [string]$DownloadUrl = "https://dxt.dev/ReportBuilder"
+    [string]$DownloadUrl = "https://download.microsoft.com/download/5/E/B/5EB40744-DC0A-47C0-8B0A-1830E74D3C23/ReportBuilder.msi"
 )
 
 # Get and store the current ProgressPreference setting
