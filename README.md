@@ -17,6 +17,6 @@ Each folder contains scripts related to specific areas of system administration 
   - **Description**: Scripts for configuring and troubleshooting network settings.
 
  ## How to Use
- 1. Clone this repository to your local machine: `git clone <repo-url>`
+ 1. Clone this repository to your local machine: `git clone https://github.com/kaysouthall/PowerShellToolkit.git`
  2. Navigate to the script folder and choose the script you need.
  3. Run the script in PowerShell as an Administrator where necessary.
